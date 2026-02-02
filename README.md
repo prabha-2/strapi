@@ -57,5 +57,8 @@ This project demonstrates running Strapi locally, creating a sample content type
 - Pushed local changes to the forked repository
 - Raised a Pull Request targeting the `main` branch
 
+### Loom Video Link:
+https://www.loom.com/share/2afe997a1042468398701a9b7de22522
+
 
 

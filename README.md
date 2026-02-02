@@ -29,36 +29,16 @@ This project demonstrates running Strapi locally, creating a sample content type
 - Strapi v5
 - SQLite
 - Git & GitHub
-
+  
+### Steps Taken
+1. Installed Node.js (v20.20.0) and npm (v10.8.2)
+2. Created Strapi project using `npx create-strapi-app@latest my-strapi-project`
+3. Added `Article` collection type and created sample entries
+4. Ran locally using `npm run develop`
+5. Updated README with project summary and Loom link
 ---
 
-## Project Summary
 
-### Project Setup
-- Installed Node.js (v20.20.0) and npm (v10.8.2)
-- Created a new Strapi project using `create-strapi-app`
-- Configured SQLite as the database
-- Skipped TypeScript and example content for a minimal setup
-
-### Content Management
-- Created a collection type named **Article**
-- Defined the following fields:
-  - `title` (Text, required)
-  - `description` (Rich Text)
-- Added sample entries to validate content creation and management
-
-### Local Development
-- Ran Strapi in development mode
-- Verified Admin Panel access at `http://localhost:1337/admin`
-
-### Git & GitHub Workflow
-- Forked the original Strapi repository
-- Created a dedicated feature branch for this task
-- Pushed local changes to the forked repository
-- Raised a Pull Request targeting the `main` branch
-
-### Loom Video Link:
-https://www.loom.com/share/2afe997a1042468398701a9b7de22522
 
 
 

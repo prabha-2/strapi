@@ -1,61 +1,61 @@
-# 🚀 Getting started with Strapi
+# Strapi CMS – Local Setup Project
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+## What is Strapi?
+Strapi is an open-source headless CMS that helps developers build APIs quickly without worrying about backend boilerplate. Content is managed through an Admin Panel and delivered via REST or GraphQL APIs.
 
-### `develop`
+## Why Use Strapi?
+- Fast backend/API development
+- Headless (works with any frontend)
+- Easy content-type creation
+- Built-in authentication & roles
+- Open source and production ready
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+## How Strapi Works
+- Create content types from Admin UI
+- Strapi auto-generates APIs
+- Content stored in database
+- APIs consumed by frontend apps
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## Project Overview
+This project demonstrates running Strapi locally, creating a sample content type, and following a Git fork → branch → PR workflow.
+
+---
+
+## Tech Stack
+- Node.js 20 (LTS)
+- npm
+- Strapi v5
+- SQLite
+- Git & GitHub
+
+---
+
+## Project Summary
+
+### Project Setup
+- Installed Node.js (v20.20.0) and npm (v10.8.2)
+- Created a new Strapi project using `create-strapi-app`
+- Configured SQLite as the database
+- Skipped TypeScript and example content for a minimal setup
+
+### Content Management
+- Created a collection type named **Article**
+- Defined the following fields:
+  - `title` (Text, required)
+  - `description` (Rich Text)
+- Added sample entries to validate content creation and management
+
+### Local Development
+- Ran Strapi in development mode
+- Verified Admin Panel access at `http://localhost:1337/admin`
+
+### Git & GitHub Workflow
+- Forked the original Strapi repository
+- Created a dedicated feature branch for this task
+- Pushed local changes to the forked repository
+- Raised a Pull Request targeting the `main` branch
+
+
+

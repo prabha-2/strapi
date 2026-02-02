@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Strappi": {
+      "type": "string"
+    },
+    "New_task": {
+      "type": "richtext"
+    }
+  }
+}

@@ -29,7 +29,13 @@ This project demonstrates running Strapi locally, creating a sample content type
 - Strapi v5
 - SQLite
 - Git & GitHub
-
+  
+### Steps Taken
+1. Installed Node.js (v20.20.0) and npm (v10.8.2)
+2. Created Strapi project using `npx create-strapi-app@latest my-strapi-project`
+3. Added `Article` collection type and created sample entries
+4. Ran locally using `npm run develop`
+5. Updated README with project summary and Loom link
 ---
 
 

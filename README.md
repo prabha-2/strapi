@@ -1,4 +1,4 @@
-# Strapi CMS – Local Setup Project
+# Strapi local setup and sample content type
 
 ## What is Strapi?
 Strapi is an open-source headless CMS that helps developers build APIs quickly without worrying about backend boilerplate. Content is managed through an Admin Panel and delivered via REST or GraphQL APIs.
